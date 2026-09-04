@@ -1,18 +1,24 @@
-# Betim-Hodza Luksmac
+# LuksMac Homebrew Tap
 
-## How do I install these formulae?
+Install LuksMac with:
 
-`brew install betim-hodza/luksmac/<formula>`
+```sh
+brew install --cask betim-hodza/luksmac/luksmac
+```
 
-Or `brew tap betim-hodza/luksmac` and then `brew install <formula>`.
+Or tap it first:
 
-Or, in a `brew bundle` `Brewfile`:
+```sh
+brew tap betim-hodza/luksmac
+brew install --cask luksmac
+```
+
+In a `Brewfile`:
 
 ```ruby
 tap "betim-hodza/luksmac"
-brew "<formula>"
+cask "luksmac"
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+LuksMac is a native macOS app for supported LUKS and ext filesystems. Releases
+are Developer ID-signed and notarized by Apple.
