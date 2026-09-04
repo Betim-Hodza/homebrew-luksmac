@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Betim-Hodza/LuksMac/releases/latest"><img src="https://img.shields.io/github/v/release/Betim-Hodza/LuksMac?display_name=tag&label=release&color=161b22" alt="Latest LuksMac release"></a>
+  <a href="https://github.com/Betim-Hodza/luksmac-releases/releases/latest"><img src="https://img.shields.io/github/v/release/Betim-Hodza/luksmac-releases?display_name=tag&label=release&color=161b22" alt="Latest LuksMac release"></a>
   <img src="https://img.shields.io/badge/macOS-26%2B-161b22?logo=apple&logoColor=white" alt="Requires macOS 26 or later">
   <img src="https://img.shields.io/badge/notarized-Apple-161b22?logo=apple&logoColor=white" alt="Notarized by Apple">
 </p>
@@ -37,7 +37,7 @@ brew install --cask luksmac
 
 ## What Homebrew installs
 
-- The current notarized Developer ID `.pkg` from the [LuksMac releases](https://github.com/Betim-Hodza/LuksMac/releases)
+- The current notarized Developer ID `.pkg` from the [public LuksMac releases](https://github.com/Betim-Hodza/luksmac-releases/releases)
 - Native LUKS1 and LUKS2 support
 - Native ext2, ext3, and ext4 filesystem support through macOS FSKit
 - The SHA-256-pinned release asset defined in [`Casks/luksmac.rb`](Casks/luksmac.rb)
@@ -53,8 +53,8 @@ brew uninstall --cask luksmac
 ```
 
 For release notes, checksums, source notices, and support, visit
-[LuksMac on GitHub](https://github.com/Betim-Hodza/LuksMac) or
-[luksmac.app](https://luksmac.app).
+[the public LuksMac releases](https://github.com/Betim-Hodza/luksmac-releases/releases)
+or [luksmac.app](https://luksmac.app).
 
 ## Brewfile
 
