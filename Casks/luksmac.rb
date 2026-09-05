@@ -5,7 +5,7 @@ cask "luksmac" do
   url "https://github.com/Betim-Hodza/luksmac-releases/releases/download/v#{version}/LuksMac-#{version}.pkg"
   name "LuksMac"
   desc "Mount and manage LUKS-encrypted ext filesystems on macOS"
-  homepage "https://luksmac.app"
+  homepage "https://luksmac.app/"
 
   depends_on macos: :tahoe
 
