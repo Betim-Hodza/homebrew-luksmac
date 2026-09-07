@@ -1,10 +1,10 @@
 cask "luksmac" do
-  version "1.0.0"
-  sha256 "d4dafcff7ca982e646530cd4a0bb4d7817130cd38cc1798f553065d61dfad343"
+  version "1.0.2"
+  sha256 "4de2ac35ab028139d8702ebfc86386327b9c20f6b20a69c9ce175eab5684ebfc"
 
   url "https://github.com/Betim-Hodza/luksmac-releases/releases/download/v#{version}/LuksMac-#{version}.pkg"
   name "LuksMac"
-  desc "Mount and manage LUKS-encrypted ext filesystems on macOS"
+  desc "Mount and manage LUKS-encrypted ext filesystems"
   homepage "https://luksmac.app/"
 
   depends_on macos: :tahoe
